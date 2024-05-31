@@ -1,0 +1,7 @@
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\tests.attractionlisttest\bin\Release\net8.0\tests.attractionlisttest.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\tests.attractionlisttest\obj\Release\net8.0\tests.attractionlisttest.csproj.AssemblyReference.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\tests.attractionlisttest\obj\Release\net8.0\tests.attractionlisttest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\tests.attractionlisttest\obj\Release\net8.0\tests.attractionlisttest.csproj.CoreCompileInputs.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\tests.attractionlisttest\obj\Release\net8.0\tests.attractionlisttest.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\tests.attractionlisttest\obj\Release\net8.0\refint\tests.attractionlisttest.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\tests.attractionlisttest\obj\Release\net8.0\ref\tests.attractionlisttest.dll

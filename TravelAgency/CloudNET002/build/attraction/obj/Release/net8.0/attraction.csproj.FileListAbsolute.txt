@@ -1,0 +1,7 @@
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\attraction\bin\Release\net8.0\attraction.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\attraction\obj\Release\net8.0\attraction.csproj.AssemblyReference.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\attraction\obj\Release\net8.0\attraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\attraction\obj\Release\net8.0\attraction.csproj.CoreCompileInputs.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\attraction\obj\Release\net8.0\attraction.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\attraction\obj\Release\net8.0\refint\attraction.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\attraction\obj\Release\net8.0\ref\attraction.dll

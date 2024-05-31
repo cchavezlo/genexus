@@ -1,0 +1,7 @@
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\suplier\bin\Release\net8.0\suplier.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\suplier\obj\Release\net8.0\suplier.csproj.AssemblyReference.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\suplier\obj\Release\net8.0\suplier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\suplier\obj\Release\net8.0\suplier.csproj.CoreCompileInputs.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\suplier\obj\Release\net8.0\suplier.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\suplier\obj\Release\net8.0\refint\suplier.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\suplier\obj\Release\net8.0\ref\suplier.dll

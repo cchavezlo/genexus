@@ -1,0 +1,7 @@
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionreport\bin\Release\net8.0\aattractionreport.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionreport\obj\Release\net8.0\aattractionreport.csproj.AssemblyReference.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionreport\obj\Release\net8.0\aattractionreport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionreport\obj\Release\net8.0\aattractionreport.csproj.CoreCompileInputs.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionreport\obj\Release\net8.0\aattractionreport.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionreport\obj\Release\net8.0\refint\aattractionreport.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionreport\obj\Release\net8.0\ref\aattractionreport.dll

@@ -1,0 +1,7 @@
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\anumberofattractionbycountry\bin\Release\net8.0\anumberofattractionbycountry.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\anumberofattractionbycountry\obj\Release\net8.0\anumberofattractionbycountry.csproj.AssemblyReference.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\anumberofattractionbycountry\obj\Release\net8.0\anumberofattractionbycountry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\anumberofattractionbycountry\obj\Release\net8.0\anumberofattractionbycountry.csproj.CoreCompileInputs.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\anumberofattractionbycountry\obj\Release\net8.0\anumberofattractionbycountry.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\anumberofattractionbycountry\obj\Release\net8.0\refint\anumberofattractionbycountry.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\anumberofattractionbycountry\obj\Release\net8.0\ref\anumberofattractionbycountry.dll

@@ -1,0 +1,606 @@
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-16">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-16">
+    <meta name="viewport" content="width=device-width - 20, initial-scale=1.0">
+    <title>GXtest Execution Report</title>
+    <link rel="icon" type="image/x-icon" href="./GXtestResults_20240530_041106/assets/gxtest-favicon.ico">
+    <style>
+					/* generic styles */
+					@font-face {
+					font-family: "Sora";
+					src: url('./GXtestResults_20240530_041106/assets/fonts/Sora-VariableFont_wght.ttf');
+					}
+
+					:root {
+					--primary: #754bde;
+					--primary-light: #ab98e5;
+					--primary-lighter: #d3c0ff;
+					--primary-dark: #3c1464;
+					--pale: #f8f6fd;
+					--cian: #5acdff;
+					--orange: #ff8700;
+					--orange-light: #ffb541;
+					--yellow: #ffd527;
+					--dark: #444;
+					--gray: #b2b2b2;
+					--gray-light: #f2f2f2;
+					--gray-dark: #80868d;
+					--success: #3ae29b;
+					--orangeWarn: #f9bc46;
+					--error: #f1406b;
+					--black: #000;
+					--white: #fff;
+					--pale: #f8f6fd;
+					--bordeaux: #a00050;
+					--coverage-excellent: #006400;
+					--coverage-high: #3ae29b;
+					--coverage-medium: #FEE12B;
+					--coverage-low: #FFCC66;
+					--coverage-very-low: #f1406b;
+					}
+
+					* {
+					font-family: "Sora";
+					margin: 0;
+					}
+
+					*,
+					*::before,
+					*::after {
+					box-sizing: border-box;
+					}
+
+					html,
+					body {
+					height: 100%;
+					}
+
+					body {
+					line-height: 1.5;
+					-webkit-font-smoothing: antialiased;
+					background-color: var(--white);
+					color: var(--dark);
+					font-size: 14px;
+					margin: 0 auto;
+					width: 900px;
+					}
+
+					img,
+					picture,
+					video,
+					canvas,
+					svg {
+					display: block;
+					max-width: 100%;
+					}
+
+					input,
+					button,
+					textarea,
+					select {
+					font: inherit;
+					}
+
+					pre {
+					white-space: pre-wrap;
+					}
+
+					p,
+					h1,
+					h2,
+					h3,
+					h4,
+					h5,
+					h6 {
+					overflow-wrap: break-word;
+					}
+
+					#root,
+					#__next {
+					isolation: isolate;
+					}
+
+					h2 {
+					color: var(--primary);
+					font-size: 1.6rem;
+					font-weight: 500;
+					letter-spacing: -.2px;
+					margin-bottom: 1rem;
+					text-align: center;
+					}
+
+					a {
+					color: var(--primary)
+					}
+
+					.success {
+					color: var(--success);
+					}
+
+					.failure {
+					color: var(--error);
+					}
+
+					.exception {
+					color: var(--bordeaux);
+					}
+
+					.skipped {
+					color: var(--dark);
+					}
+
+					.warn {
+					color: var(--orange);
+					}
+
+
+					/* header */
+					header {
+					background-color: var(--primary);
+					color: var(--white);
+					padding: 1.2rem 2rem;
+					}
+
+					header h1 {
+					font-weight: 600;
+					}
+
+					header h1 span {
+					display: block;
+					font-size: 1rem;
+					font-weight: 400;
+					}
+
+					header div {
+					display: inline-block;
+					}
+
+					header img {
+					width: 190px;
+					}
+
+					header .header-logo {
+					width: 35%;
+					}
+
+					header .header-title {
+					text-align: right;
+					width: 64%;
+					}
+
+					/* main */
+					main .summary {
+					text-align: center;
+					}
+
+					main h2 {
+					margin-top: 2.6rem;
+					}
+
+					main .summary table {
+					border-collapse: collapse;
+					margin: 0 10%;
+					width: 80%;
+					}
+
+					main .summary table th,
+					main .summary table td {
+					background-color: var(--gray-light);
+					border: 2px solid var(--white);
+					padding: 8px;
+					text-align: center;
+					}
+
+					main .summary table th {
+					background-color: var(--primary-dark);
+					color: var(--white);
+					font-weight: 500;
+					}
+
+					main .summary table td {
+					font-size: 1.4rem;
+					}
+
+					main .time article .time-row {
+					display: flex;
+					justify-content: space-between;
+					margin-top: 32px;
+					padding: 0 10%;
+					width: 100%;
+					}
+
+					main .time article .time-row>div {
+					background-color: var(--primary-dark);
+					color: var(--white);
+					display: inline-block;
+					margin: 0px !important;
+					padding: 8px 24px;
+					position: relative;
+					width: 48%;
+					}
+
+					main .time article .time-row img {
+					position: absolute;
+					top: -20px;
+					left: -20px;
+					width: 40px;
+					}
+
+					main .u-list {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					width: 100%;
+					margin-left: 10%;
+					}
+
+					main .u-list ul,
+					main .u-list ol {
+					padding: 32px 48px;
+					width: 80%;
+					background-color: var(--gray-light);
+					}
+
+					main .u-list ul {
+					list-style: none;
+					}
+
+					main .u-list ul li,
+					main .u-list ol li {
+					border-bottom: 1px solid var(--primary);
+					font-size: 1rem;
+					}
+
+					main .u-list ul li {
+					padding: 8px 16px;
+					}
+
+					main .u-list ol li {
+					padding: 8px 0px;
+					}
+
+
+					main .u-list ul li:last-child,
+					main .u-list ol li:last-child {
+					border: none !important;
+					}
+
+					main .exception-list {
+					background-color: var(--white) !important;
+					border: 24px solid var(--gray-light);
+					margin-top: -48px !important;
+					padding: 24px !important;
+					}
+
+					main .exception-list li {
+					font-size: .8rem !important;
+					}
+
+					main .exception-list li b {
+					display: block;
+					margin-bottom: 4px;
+					}
+
+					main h3 {
+					margin: 0 10%;
+					text-align: center;
+					width: 80%;
+					}
+
+					main h3.failure {
+					color: var(--white);
+					background-color: var(--error);
+					font-weight: 500;
+					}
+
+					main h3.exception {
+					color: var(--white);
+					background-color: var(--bordeaux);
+					font-weight: 500;
+					}
+
+					main h3.success {
+					color: var(--primary-dark);
+					background-color: var(--success);
+					font-weight: 500;
+					}
+
+					main h3.warning {
+					color: var(--primary-dark);
+					background-color: var(--orangeWarn);
+					font-weight: 500;
+					}
+
+					main h3.skipped {
+					color: var(--dark);
+					background-color: var(--gray);
+					font-weight: 500;
+					}
+
+					i img {
+					display: inline !important;
+					vertical-align: middle;
+					}
+
+					main table {
+					border-collapse: collapse;
+					margin: 0 10%;
+					width: 80%;
+					}
+
+					main table th,
+					main table td {
+					background-color: var(--gray-light);
+					border: 2px solid var(--white);
+					font-size: .85rem;
+					padding: 8px;
+					text-align: center;
+					}
+
+					main table th:first-child,
+					main table td:first-child {
+					border-left: none !important;
+					}
+
+					main table th:last-child,
+					main table td:last-child {
+					border-right: none !important;
+					}
+
+					main table th {
+					background-color: var(--primary-dark);
+					color: var(--white);
+					font-weight: 500;
+					}
+
+					main table th.assertions-results {
+					font-size: 1rem;
+					font-weight: 400;
+					}
+
+					main td.success {
+					color: var(--primary-dark);
+					background-color: var(--success);
+					font-weight: 400;
+					}
+
+					main td.failure {
+					color: var(--white);
+					background-color: var(--error);
+					font-weight: 400;
+					}
+
+					main .summary .success {
+					color: var(--success);
+					}
+
+					main .summary .failure {
+					color: var(--error);
+					}
+
+					main .summary .exception {
+					color: var(--bordeaux);
+					}
+
+					main .summary .warning {
+					color: var(--orangeWarn);
+					}
+
+					main .main-section h2.main-section-title {
+					border-top: 2px solid var(--primary);
+					border-bottom: 2px solid var(--primary);
+					margin-bottom: -8px;
+					margin-left: 10%;
+					margin-right: 10%;
+					padding: 12px 0;
+					width: 80%;
+					}
+
+					main h3.test-steps {
+					display: block;
+					margin-top: 24px;
+					margin-bottom: 24px;
+					}
+
+					main .main-section .test-suite-wrapper {
+					display: flex;
+					flex-direction: column;
+					}
+
+					main .main-section .test-suite-wrapper .test-suite {
+					background-color: var(--white);
+					box-shadow: 0 16px 16px -12px rgba(60, 20, 100, .2);
+					margin-bottom: 0;
+					position: sticky;
+					top: 0;
+					padding: 12px;
+					z-index: 10000 !important;
+					}
+
+					main .main-section .test-suite-wrapper .test-suite-component {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					}
+
+					main .main-section .test-suite-wrapper .test-suite-component i {
+					display: inline-block;
+					margin-right: 8px;
+					margin-top: -14px;
+					}
+
+					main .main-section .test-suite-wrapper .test-suite-component .test-suite-breadcrumbs {
+					position: relative;
+					}
+
+					main .main-section .test-suite-wrapper .test-suite-component .test-suite-breadcrumbs em {
+					color: var(--gray-dark);
+					font-size: .9rem;
+					font-style: normal;
+					font-weight: 400;
+					display: block;
+					margin-bottom: 29px;
+					position: absolute;
+					bottom: 0;
+					left: 2px;
+					}
+
+					ol {
+					padding-left: 1rem;
+					counter-reset: li;
+					}
+
+					ol li {
+					position: relative;
+					}
+
+					ol li::before {
+					border-radius: 50px;
+					content: counter(li);
+					counter-increment: li;
+					top: 8px;
+					left: -27.3px;
+					line-height: 24px;
+					position: absolute;
+					text-align: center;
+					height: 24px;
+					width: 24px;
+					}
+
+					li.li-success::before {
+					background-color: var(--success);
+					color: var(--primary-dark);
+					}
+
+					li.li-failure::before {
+					background-color: var(--error);
+					color: var(--white);
+					}
+
+					li.li-warning::before {
+					background-color: var(--orangeWarn);
+					color: var(--white);
+					}
+
+					.coverage-result {
+					background-color: var(--coverage-very-low);
+					color: var(--white);
+					font-weight: 500;
+					margin-top: 2px;
+					}
+
+					.coverage-result[coverage="excellent"] {
+					background-color: var(--coverage-excellent);
+					}
+
+					.coverage-result[coverage="high"] {
+					background-color: var(--coverage-high);
+					color: var(--primary-dark);
+					}
+
+					.coverage-result[coverage="medium"] {
+					background-color: var(--coverage-medium);
+					color: var(--primary-dark);
+					}
+
+					.coverage-result[coverage="low"] {
+					background-color: var(--coverage-low);
+					color: var(--primary-dark);
+					}
+
+					main span.container-image {
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: 0 30%;
+					border: 1px solid var(--primary);
+					display: block !important;
+					height: 300px;
+					margin: 48px 10%;
+					transition: all 450ms;
+					width: 80%;
+					}
+
+					main span.container-image:hover {
+					opacity: .5;
+					}
+
+					/* footer */
+					footer {
+					background-color: var(--primary);
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin: 64px 10% 0 10%;
+					padding: 8px 24px;
+					width: 80%;
+					}
+
+					footer .footer-logo img {
+					width: 90px;
+					}
+
+					footer p {
+					color: var(--white);
+					font-size: .7rem;
+					}
+				</style><script></script></head>
+  <body><header><div class="header-logo"><img src="./GXtestResults_20240530_041106/assets/gxtest-logo.svg" alt="GXtest logo"></div>
+      <div class="header-title">
+        <h1><span>Execution Result</span>NetCore tests execution</h1>
+      </div></header><main><section class="summary"><article><h2>Summary</h2>
+          <table>
+            <tr>
+              <th>Total tests</th>
+              <th>Passed</th>
+              <th>Failed</th>
+              <th>Exception</th>
+              <th>Warning</th>
+              <th>Skipped</th>
+              <th>Cancelled</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td class="success">0</td>
+              <td class="failure">0</td>
+              <td class="exception">0</td>
+              <td class="warning">1</td>
+              <td class="skipped">0</td>
+              <td class="skipped">0</td>
+            </tr>
+          </table></article></section><section class="time"><article><h2>
+								Total execution time:  517 ms</h2>
+          <div class="time-row">
+            <div class="time-start">
+              <div class="time-icon"><img src="./GXtestResults_20240530_041106/assets/time-icon.png" alt=""></div>
+              <div class="time-info"><strong>Start: </strong><br>2024-05-30T16:10:45.8666897-05:00</div>
+            </div>
+            <div class="time-end">
+              <p><img src="./GXtestResults_20240530_041106/assets/time-icon.png" alt=""><strong>End: </strong><br>2024-05-30T16:10:46.3843411-05:00</p>
+            </div>
+          </div></article></section><section class="main-section"><h2 class="main-section-title">Standalone Tests</h2>
+        <div class="test-suite-wrapper">
+          <div>
+            <h2 class="test-suite-component"><i><img src="./GXtestResults_20240530_041106/assets/unit_test.ico" alt="Unit Test" title="Unit Test"></i>
+				 
+				<span class="">Tests.AttractionListTest</span></h2>
+            <h3 class="warning">WARNING
+					in 96 ms
+				</h3>
+            <div style="margin-bottom: 50px;">
+              <table>
+                <tr>
+                  <th colspan="4" class="assertions-results">
+								Assertions (0 failed, 0 passed)
+							</th>
+                </tr>
+                <tr>
+                  <th>Assertion</th>
+                  <th>Expected</th>
+                  <th>Obtained</th>
+                  <th>Message</th>
+                </tr>
+              </table>
+            </div>
+          </div><br></div></section></main></body><footer><div class="footer-logo"><img src="./GXtestResults_20240530_041106/assets/gxtest-logo.svg" alt="GXtest logo"></div>
+    <p>Execution Report end</p></footer></html>

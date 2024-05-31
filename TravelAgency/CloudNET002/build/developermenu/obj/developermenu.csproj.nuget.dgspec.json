@@ -1,0 +1,3352 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\developermenu\\developermenu.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbynameandcountry\\aattractionbynameandcountry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbynameandcountry\\aattractionbynameandcountry.csproj",
+        "projectName": "aattractionbynameandcountry",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbynameandcountry\\aattractionbynameandcountry.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbynameandcountry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbyname\\aattractionbyname.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbyname\\aattractionbyname.csproj",
+        "projectName": "aattractionbyname",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbyname\\aattractionbyname.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbyname\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlistcategorynovacios\\aattractionlistcategorynovacios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlistcategorynovacios\\aattractionlistcategorynovacios.csproj",
+        "projectName": "aattractionlistcategorynovacios",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlistcategorynovacios\\aattractionlistcategorynovacios.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlistcategorynovacios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlist\\aattractionlist.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlist\\aattractionlist.csproj",
+        "projectName": "aattractionlist",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlist\\aattractionlist.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlist\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionreport\\aattractionreport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionreport\\aattractionreport.csproj",
+        "projectName": "aattractionreport",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionreport\\aattractionreport.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionreport\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\acountryranking\\acountryranking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\acountryranking\\acountryranking.csproj",
+        "projectName": "acountryranking",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\acountryranking\\acountryranking.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\acountryranking\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airline\\airline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airline\\airline.csproj",
+        "projectName": "airline",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airline\\airline.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airline\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airport\\airport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airport\\airport.csproj",
+        "projectName": "airport",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airport\\airport.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airport\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountrys\\anumberofattractionbycountrys.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountrys\\anumberofattractionbycountrys.csproj",
+        "projectName": "anumberofattractionbycountrys",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountrys\\anumberofattractionbycountrys.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountrys\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountry\\anumberofattractionbycountry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountry\\anumberofattractionbycountry.csproj",
+        "projectName": "anumberofattractionbycountry",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountry\\anumberofattractionbycountry.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionattractionwc\\attractionattractionwc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionattractionwc\\attractionattractionwc.csproj",
+        "projectName": "attractionattractionwc",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionattractionwc\\attractionattractionwc.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionattractionwc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractiongeneral\\attractiongeneral.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractiongeneral\\attractiongeneral.csproj",
+        "projectName": "attractiongeneral",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractiongeneral\\attractiongeneral.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractiongeneral\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionsinpattern\\attractionsinpattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionsinpattern\\attractionsinpattern.csproj",
+        "projectName": "attractionsinpattern",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionsinpattern\\attractionsinpattern.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionsinpattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attraction\\attraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attraction\\attraction.csproj",
+        "projectName": "attraction",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attraction\\attraction.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\category\\category.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\category\\category.csproj",
+        "projectName": "category",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\category\\category.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\category\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrycitywc\\countrycitywc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrycitywc\\countrycitywc.csproj",
+        "projectName": "countrycitywc",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrycitywc\\countrycitywc.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrycitywc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrygeneral\\countrygeneral.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrygeneral\\countrygeneral.csproj",
+        "projectName": "countrygeneral",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrygeneral\\countrygeneral.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrygeneral\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\country\\country.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\country\\country.csproj",
+        "projectName": "country",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\country\\country.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\country\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\customer\\customer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\customer\\customer.csproj",
+        "projectName": "customer",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\customer\\customer.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\customer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\developermenu\\developermenu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\developermenu\\developermenu.csproj",
+        "projectName": "developermenu",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\developermenu\\developermenu.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\developermenu\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbynameandcountry\\aattractionbynameandcountry.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbynameandcountry\\aattractionbynameandcountry.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbyname\\aattractionbyname.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionbyname\\aattractionbyname.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlistcategorynovacios\\aattractionlistcategorynovacios.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlistcategorynovacios\\aattractionlistcategorynovacios.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlist\\aattractionlist.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionlist\\aattractionlist.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionreport\\aattractionreport.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\aattractionreport\\aattractionreport.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\acountryranking\\acountryranking.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\acountryranking\\acountryranking.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airline\\airline.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airline\\airline.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airport\\airport.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\airport\\airport.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountrys\\anumberofattractionbycountrys.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountrys\\anumberofattractionbycountrys.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountry\\anumberofattractionbycountry.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\anumberofattractionbycountry\\anumberofattractionbycountry.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionattractionwc\\attractionattractionwc.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionattractionwc\\attractionattractionwc.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractiongeneral\\attractiongeneral.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractiongeneral\\attractiongeneral.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionsinpattern\\attractionsinpattern.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attractionsinpattern\\attractionsinpattern.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attraction\\attraction.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\attraction\\attraction.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\category\\category.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\category\\category.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrycitywc\\countrycitywc.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrycitywc\\countrycitywc.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrygeneral\\countrygeneral.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\countrygeneral\\countrygeneral.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\country\\country.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\country\\country.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\customer\\customer.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\customer\\customer.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\enterattractionfilter\\enterattractionfilter.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\enterattractionfilter\\enterattractionfilter.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\flyght\\flyght.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\flyght\\flyght.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0010\\gx0010.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0010\\gx0010.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0020\\gx0020.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0020\\gx0020.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0030\\gx0030.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0030\\gx0030.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0040\\gx0040.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0040\\gx0040.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0051\\gx0051.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0051\\gx0051.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0070\\gx0070.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0070\\gx0070.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0080\\gx0080.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0080\\gx0080.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0090\\gx0090.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0090\\gx0090.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00b1\\gx00b1.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00b1\\gx00b1.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00d0\\gx00d0.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00d0\\gx00d0.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00e1\\gx00e1.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00e1\\gx00e1.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\suplier\\suplier.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\suplier\\suplier.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewattraction\\viewattraction.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewattraction\\viewattraction.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewcountry\\viewcountry.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewcountry\\viewcountry.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwattraction\\wwattraction.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwattraction\\wwattraction.csproj"
+              },
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwcountry\\wwcountry.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwcountry\\wwcountry.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\enterattractionfilter\\enterattractionfilter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\enterattractionfilter\\enterattractionfilter.csproj",
+        "projectName": "enterattractionfilter",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\enterattractionfilter\\enterattractionfilter.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\enterattractionfilter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\flyght\\flyght.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\flyght\\flyght.csproj",
+        "projectName": "flyght",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\flyght\\flyght.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\flyght\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj",
+        "projectName": "general.security.notauthorized",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.security.notauthorized\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj",
+        "projectName": "general.ui.masterprompt",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterprompt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj",
+        "projectName": "general.ui.masterunanimosidebar",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\general.ui.masterunanimosidebar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj",
+        "projectName": "GeneXus.Programs.Common",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0010\\gx0010.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0010\\gx0010.csproj",
+        "projectName": "gx0010",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0010\\gx0010.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0010\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0020\\gx0020.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0020\\gx0020.csproj",
+        "projectName": "gx0020",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0020\\gx0020.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0020\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0030\\gx0030.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0030\\gx0030.csproj",
+        "projectName": "gx0030",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0030\\gx0030.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0030\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0040\\gx0040.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0040\\gx0040.csproj",
+        "projectName": "gx0040",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0040\\gx0040.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0040\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0051\\gx0051.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0051\\gx0051.csproj",
+        "projectName": "gx0051",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0051\\gx0051.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0051\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0070\\gx0070.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0070\\gx0070.csproj",
+        "projectName": "gx0070",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0070\\gx0070.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0070\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0080\\gx0080.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0080\\gx0080.csproj",
+        "projectName": "gx0080",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0080\\gx0080.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0080\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0090\\gx0090.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0090\\gx0090.csproj",
+        "projectName": "gx0090",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0090\\gx0090.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx0090\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00b1\\gx00b1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00b1\\gx00b1.csproj",
+        "projectName": "gx00b1",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00b1\\gx00b1.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00b1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00d0\\gx00d0.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00d0\\gx00d0.csproj",
+        "projectName": "gx00d0",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00d0\\gx00d0.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00d0\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00e1\\gx00e1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00e1\\gx00e1.csproj",
+        "projectName": "gx00e1",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00e1\\gx00e1.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\gx00e1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\suplier\\suplier.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\suplier\\suplier.csproj",
+        "projectName": "suplier",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\suplier\\suplier.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\suplier\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewattraction\\viewattraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewattraction\\viewattraction.csproj",
+        "projectName": "viewattraction",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewattraction\\viewattraction.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewattraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewcountry\\viewcountry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewcountry\\viewcountry.csproj",
+        "projectName": "viewcountry",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewcountry\\viewcountry.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\viewcountry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwattraction\\wwattraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwattraction\\wwattraction.csproj",
+        "projectName": "wwattraction",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwattraction\\wwattraction.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwattraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwcountry\\wwcountry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwcountry\\wwcountry.csproj",
+        "projectName": "wwcountry",
+        "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwcountry\\wwcountry.csproj",
+        "packagesPath": "C:\\Users\\cchavez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\wwcountry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\cchavez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\Users\\cchavez\\Documents\\Onboarding\\genexus\\TravelAgency\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.29.0, 1.29.0]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

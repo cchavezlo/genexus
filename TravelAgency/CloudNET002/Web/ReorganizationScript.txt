@@ -1,0 +1,8 @@
+CREATE TABLE [SuplierAttraction] ([SuplierId] smallint NOT NULL , [AttractionId] smallint NOT NULL , [SuplierAttractionDate] datetime NOT NULL , PRIMARY KEY([SuplierId], [AttractionId]));
+CREATE NONCLUSTERED INDEX [ISUPLIERATTRACTION1] ON [SuplierAttraction] ([AttractionId] );
+
+CREATE TABLE [Suplier] ([SuplierId] smallint NOT NULL IDENTITY(1,1), [SuplierName] nchar(50) NOT NULL , [SuplierAddress] nvarchar(1024) NOT NULL , PRIMARY KEY([SuplierId]));
+
+ALTER TABLE [SuplierAttraction] ADD CONSTRAINT [ISUPLIERATTRACTION2] FOREIGN KEY ([SuplierId]) REFERENCES [Suplier] ([SuplierId]);
+ALTER TABLE [SuplierAttraction] ADD CONSTRAINT [ISUPLIERATTRACTION1] FOREIGN KEY ([AttractionId]) REFERENCES [Attraction] ([AttractionId]);
+

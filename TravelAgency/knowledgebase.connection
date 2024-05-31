@@ -1,0 +1,11 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_TravelAgency</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>(LocalDB)\MSSQLLocalDB</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency</Directory>
+	<DataFile>GX_KB_TravelAgency.mdf</DataFile>
+	<LogFile>GX_KB_TravelAgency_log.ldf</LogFile>
+	<HostName>TPXPC-GATIC21</HostName>
+	<DetachOnClose>False</DetachOnClose>
+</ConnectionInformation>

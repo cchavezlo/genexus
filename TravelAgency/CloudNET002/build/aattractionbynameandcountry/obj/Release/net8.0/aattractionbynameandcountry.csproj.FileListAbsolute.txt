@@ -1,0 +1,7 @@
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionbynameandcountry\bin\Release\net8.0\aattractionbynameandcountry.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionbynameandcountry\obj\Release\net8.0\aattractionbynameandcountry.csproj.AssemblyReference.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionbynameandcountry\obj\Release\net8.0\aattractionbynameandcountry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionbynameandcountry\obj\Release\net8.0\aattractionbynameandcountry.csproj.CoreCompileInputs.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionbynameandcountry\obj\Release\net8.0\aattractionbynameandcountry.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionbynameandcountry\obj\Release\net8.0\refint\aattractionbynameandcountry.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionbynameandcountry\obj\Release\net8.0\ref\aattractionbynameandcountry.dll

@@ -1,0 +1,7 @@
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionlistcategorynovacios\bin\Release\net8.0\aattractionlistcategorynovacios.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionlistcategorynovacios\obj\Release\net8.0\aattractionlistcategorynovacios.csproj.AssemblyReference.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionlistcategorynovacios\obj\Release\net8.0\aattractionlistcategorynovacios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionlistcategorynovacios\obj\Release\net8.0\aattractionlistcategorynovacios.csproj.CoreCompileInputs.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionlistcategorynovacios\obj\Release\net8.0\aattractionlistcategorynovacios.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionlistcategorynovacios\obj\Release\net8.0\refint\aattractionlistcategorynovacios.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\aattractionlistcategorynovacios\obj\Release\net8.0\ref\aattractionlistcategorynovacios.dll

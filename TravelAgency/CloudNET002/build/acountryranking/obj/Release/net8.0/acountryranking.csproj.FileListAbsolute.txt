@@ -1,0 +1,7 @@
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\acountryranking\bin\Release\net8.0\acountryranking.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\acountryranking\obj\Release\net8.0\acountryranking.csproj.AssemblyReference.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\acountryranking\obj\Release\net8.0\acountryranking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\acountryranking\obj\Release\net8.0\acountryranking.csproj.CoreCompileInputs.cache
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\acountryranking\obj\Release\net8.0\acountryranking.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\acountryranking\obj\Release\net8.0\refint\acountryranking.dll
+C:\Users\cchavez\Documents\Onboarding\genexus\TravelAgency\CloudNET002\build\acountryranking\obj\Release\net8.0\ref\acountryranking.dll
